@@ -1,0 +1,4 @@
+{
+  "html": "<h1>Teste de Segurança</h1><p>Este HTML contém conteúdo potencialmente perigoso que será sanitizado:</p><div><script>alert('XSS tentativa')</script><img src='x' onerror='alert(1)'/><iframe src='http://malicious.com'></iframe></div><p>Após sanitização, o conteúdo acima será removido, deixando apenas este parágrafo.</p><p>Tags permitidas: <strong>negrito</strong>, <em>itálico</em>, <u>sublinhado</u>, <code>código</code></p>",
+  "css": "h1 { color: #0066cc; } p { margin: 10px 0; }"
+}

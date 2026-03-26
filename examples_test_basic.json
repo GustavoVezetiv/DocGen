@@ -1,0 +1,4 @@
+{
+  "html": "<h1>Olá Mundo</h1><p>Este é meu primeiro documento PDF gerado via DocGen!</p>",
+  "css": "h1 { color: #0066cc; font-size: 24pt; margin-bottom: 10px; } p { font-size: 12pt; line-height: 1.5; }"
+}
